@@ -1,17 +1,46 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
+h1 {
+	font-family: 'Droid Serif', serif;
+	color: #086B63;
+}
+
+
+h2{
 	margin: 0;
+font-family: 'Arimo', sans-serif;
+	color: #7C7159;
+}
+
+p {
+	margin: 0;
+font-family: 'Arimo', sans-serif;
+	color: c;
+}
+
+h3 {
+font-family: 'Arimo', sans-serif;
+	color: #77A490;
+	margin: 0;
+}
+
+a {
+	color: #086B63;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #77A490;
+	text-decoration: none;
 }
 
 /* Layout for Style Tile*/
 section {
+	font-family: 'Open Sans', sans-serif;
 	margin: 20px 0;
 }
 
-.color-1,
-.color-2,
-.color-3,
-.pattern-1,
+
+
 .pattern-2,
 .pattern-3 {
 	border: 1px solid #000;
@@ -19,6 +48,43 @@ section {
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	background: url('../img/bg.png');
+}
+
+.pattern-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: url('../img/arches.png');
+}
+
+.color-1 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #086B63;
+}
+
+.color-2 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #7C7159;
+}
+
+.color-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+	background: #77A490;
 }
 
 
